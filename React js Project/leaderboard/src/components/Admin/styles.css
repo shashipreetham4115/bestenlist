@@ -1,0 +1,285 @@
+.navbar-head{
+top: 0;
+position: fixed;
+width:100%;
+height: auto;
+background-image: linear-gradient(to left,  rgba(85,88,218,1), rgba(95,209,249,1));
+    }
+.brand{
+    color: white;
+    font-weight: bold;
+    cursor:pointer;
+    background-image: linear-gradient(to bottom,  rgb(255, 238, 0), rgb(255, 0, 0));
+    padding: 0.5%;
+    margin-left: 1%;
+    margin: 7px 0px 7px 0px ;
+}
+.nav-list h6{
+    cursor: pointer;
+    color: white;
+    float: right;
+    margin-left: 20px !important;
+ }
+ .link{
+  cursor: pointer;
+  color: white;
+  float: right;
+  margin-left: 20px !important;
+  list-style: none !important;
+  font-weight:500;
+  
+ }
+ .link:hover{
+ list-style: none !important;
+  color: white !important;
+  text-decoration: none;
+ }
+.heading{
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 10px 14px 16px rgba(0,0,0,00.3);
+    padding: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    /* color: white; */
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 80px;
+}
+.quizlist{
+    display: flex;
+    align-items: center;
+}
+.titlebox-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titlebox{
+    /* background: rgba(255, 255, 255, 0.136); */
+    /* box-shadow: 10px 14px 16px rgba(0,0,0,0.5); */
+  display: flex;
+  align-items:flex-start;
+   flex-direction: column;
+   max-width: 100%;
+   overflow:auto;
+   margin-top: 30px;
+   overflow: hidden;
+   margin-bottom: 28%;
+   /* border-radius: 25px; */
+}
+
+.title{
+    /* color: white; */
+    background: rgba(255, 255, 255, 1);
+    /* box-shadow: 10px 14px 16px rgba(0,0,0,0.5); */
+    /* border: 2px; */
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    margin: 2px;
+}
+.title h6{
+    margin-right: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.title img{
+   float: right;
+   margin-left: 20px;
+   margin-top: -28px;
+   
+   cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+   .title h6{
+       margin-right: 250px;
+   }
+}
+@media only screen and (min-width: 600px) {
+    .title h6{
+        margin-right: 350px;
+    }
+ }
+ .titleimgdiv{
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+     justify-content: flex-end;
+ }
+.createquizbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+ }
+ .createquizbtn button{
+    position: fixed;
+    bottom: 5%;
+    background-image: linear-gradient(to left,  rgba(85,88,218,1), rgba(95,209,249,1));
+    outline: none;
+    border-radius: 25px;
+    font-size: 120%;
+    font-weight: bold;
+    color: rgb(195, 0, 255);
+ }
+ .quiztitlediv{
+    background: rgba(216, 197, 197, 0.35);
+
+    box-shadow: 10px 14px 16px rgba(0,0,0,0.5);
+ }
+ .questions{
+     color: rgba(0, 0, 0, 0.728);
+     width: 100%;
+ }
+ .question{
+    background: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    /* box-shadow: 10px 1px 10px rgba(0,0,0,0.5); */
+    padding: 7px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+    border-radius: 25px;
+    
+ }
+ .option{
+     display: flex;
+     flex-direction: column;
+     margin: 20px;
+     cursor: pointer;
+     
+ }
+ .option h6{
+    display: flex;
+    align-items: center;
+   justify-content: flex-start;
+     margin: 3px;
+     border-radius: 25px;
+     background: rgba(255, 255, 255, 0.7);
+    /* box-shadow: 10px 1px 10px rgba(0,0,0,0.5); */
+
+     padding: 10px;
+     cursor: pointer;
+ }
+ .answer{
+     display: flex;
+     align-items: center;
+    justify-content: center;
+    margin: 0% 15%;
+    background: rgba(255, 255, 255, 0.6);
+
+    /* box-shadow: 10px 1px 10px rgba(0,0,0,0.5); */
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+    @media only screen and (max-width: 1000px) {
+        .quizcard{
+            max-width: 90%;
+        }
+     }
+     @media only screen and (min-width: 1000px) {
+         .quizcard{
+            max-width: 60%;
+         }
+      }
+      .leaderboard-div{
+        /* background: rgba(0,0,0,0.3);*/
+        /* box-shadow: 10px 14px 16px rgba(0,0,0,0.5);  */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column !important;
+        margin-top: 20px;
+        /* background: rgb(255, 255, 255) ; */
+        width: 70%;
+        border-radius: 5px;
+         padding: 10px;
+      }
+      .leaderboard{
+        background: rgba(0,0,0,0.5);
+        /* box-shadow: 10px 14px 16px rgba(0,0,0,0.2); */
+        margin-bottom: 5px;
+        padding: 5px;
+        font-weight: bolder;
+        color: white;
+        border-radius: 25px;
+    }
+      @media only screen and (max-width: 500px) {
+        
+          .leaderboard-div{
+            width: 90%;
+            padding: 5px;
+          }
+          .leaderboard{
+            margin-bottom: 5px;
+            padding: 5px;
+            font-weight: bolder;
+            
+            
+        }
+     }
+     @media only screen and (min-width: 1000px) {
+        
+          .leaderboard-div{
+            width: 50%;
+            padding: 5px;
+          }
+          .leaderboard{
+            margin-bottom: 5px;
+            padding: 5px;
+            font-weight: bolder;
+        }
+      }
+      .leaderboarddiv{
+        width: 100%;
+        padding: 5%;
+      }
+     
+      .leaderboard-score1{
+          float: right;
+          /* margin-right: 7%; */
+      }.leaderboard-score2{
+        float: right;
+        margin-right: 5%;
+    }
+      .app {
+        background: rgba(0,0,0,0.4);
+         box-shadow: 10px 14px 16px rgba(0,0,0,0.5);
+        /* background: rgba(1, 19, 84, 0.6) ;
+        box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.1); */
+        text-align: center;
+        padding: 4%;
+        border-radius: 25px;
+      }
+      
+      .app-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+      }
+      .app-header h1 { 
+       color: rgb(220, 228, 211);
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+      .newicon{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+      }
+      .newicon img{
+       position: fixed;
+       bottom: 5%;
+       right: 3%; 
+       border-radius: -50%;
+
+      }
